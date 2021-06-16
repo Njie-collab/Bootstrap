@@ -1,0 +1,51 @@
+
+@import"_reset.scss";
+@import"bootstrap-2/bootstrap.scss";
+
+
+$primarycolor:rgb(21, 255, 0);
+$secondarycolor:yellow ;
+$dangercolor:red ;
+$morecolor:white ;
+$newcolor:rgba(255, 217, 0, 0.363) ;
+$textColor:rgb(5, 5, 5) ;
+
+
+body {
+    background:$primarycolor;
+    width: 100vh;
+}
+
+
+
+.sass-1 {
+    display: grid;
+    background:$secondarycolor;
+    &:hover {
+       background: blue;
+    }
+
+.sass-2 {
+    background: $morecolor;
+
+    &:hover {
+        background: rgb(145, 21, 21);
+    }
+
+}
+
+p {
+    background: $dangercolor;
+    color: $textColor;
+    &:hover {
+        background:white ;
+    }
+}
+
+.l1 p {
+    background: $morecolor;
+}
+
+
+} 
+
